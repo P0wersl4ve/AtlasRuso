@@ -1,0 +1,61 @@
+/*******************
+Login register and recover password Page
+******************/
+.login-register {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+  padding: 10% 0;
+  position: fixed;
+}
+
+.login-box {
+  width: 400px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+.login-box button {
+    background-color: #DE0007;
+    border: #DE0007;
+    box-shadow: none;
+}
+.login-box .footer {
+  width: 100%;
+  left: 0px;
+  right: 0px;
+}
+.login-box .social {
+  display: block;
+  margin-bottom: 30px;
+}
+
+#recoverform {
+  display: none;
+}
+
+.login-sidebar {
+  padding: 0px;
+  margin-top: 0px;
+}
+.login-sidebar .login-box {
+  right: 0px;
+  position: absolute;
+  height: 100%;
+}
+.logo-atlas {
+    width: 70px;
+    position: absolute;
+    top: 0;
+    margin: 3% 5%;
+}
+.card-body h3 {
+    color: white;
+}
+.form-control {
+    color: white !important;
+    min-height: 38px;
+    display: initial;
+}
